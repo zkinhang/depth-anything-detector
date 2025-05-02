@@ -35,7 +35,7 @@ pip install transformers torch numpy Pillow opencv-python matplotlib
 
 ## Model
 
-This project uses the `Depth-Anything-V2-Small-hf` model from the `transformers` library for depth estimation. You can find the model on [Hugging Face](https://huggingface.co/).
+This project uses the `Depth-Anything-V2-Small-hf` model from the `transformers` library for depth estimation. You can find the model on [Hugging Face](https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf).
 
 ## Sample Output
 
