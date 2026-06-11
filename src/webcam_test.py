@@ -1,3 +1,10 @@
+"""
+Trial implementation: Webcam Connected
+This script uses a real-time webcam feed to generate a depth map using 
+the Depth-Anything-V2-Small model. It thresholds the predicted depth values 
+and uses OpenCV connected components to locate and bound the largest close object.
+Note: This is an earlier trial version.
+"""
 from transformers import AutoImageProcessor, AutoModelForDepthEstimation
 import torch
 import numpy as np

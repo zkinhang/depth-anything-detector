@@ -1,3 +1,11 @@
+"""
+Trial implementation: Temporal Depth Brightness Difference
+This script uses a real-time webcam feed to track the average brightness 
+(depth intensity) change over time. It compares the current frame's overall 
+depth to a reference frame captured at startup. A significant increase in 
+brightness indicates an approaching object.
+Note: This is an earlier trial version.
+"""
 from transformers import AutoImageProcessor, AutoModelForDepthEstimation
 import torch
 import numpy as np
