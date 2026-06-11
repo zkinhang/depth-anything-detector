@@ -1,6 +1,6 @@
 # Depth-Anything AUV Navigation Module
 
-This project was developed for the **SAUVC 2025** team **Manta Ray** as a visual navigation module of our Autonomous Underwater Vehicle (AUV).
+This project was developed for the team **[Manta Ray](https://www.polyu.edu.hk/engineeringentrepreneurshipclub/competitions/international-competition-sauvc/)** as a visual navigation module of our Autonomous Underwater Vehicle (AUV) in [SAUVC](https://sauvc.org/) 2025.
 
 Powered by **Apple CoreML** for high-performance on-device processing, this module transforms camera feeds into real-time depth estimations. It serves as a software-based depth sensor, specifically designed to detect approaching obstacles and let the AUV to dodge the object automatically.
 
